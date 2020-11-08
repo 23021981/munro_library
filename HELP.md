@@ -4,7 +4,8 @@
     a simple API which other software can use to sort and filter the munro data. The solution is developed using Java. 
     I used Spring boot framework to create the Restful endpoint.
 
-##The API provides the following functionality and example end points:
+## The API provides the following functionality and example end points:
+    
     ● Filtering of search by hill category (i.e. Munro, Munro Top or either). If this information is not provided by the 
     user it should default to either. This should use the “post 1997” column and if it is blank the hill should be always 
     excluded from results.
